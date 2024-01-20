@@ -58,7 +58,7 @@
                                 <li><a>contact</a></li>
                             </ul>
                         </div>
-                        <a class=" btn btn-ghost text-xl lg:text-4xl">Bike dekho</a>
+                        <a class=" btn btn-ghost text-xl lg:text-4xl">Bike <span class=" text-bike-primary">shope</span></a>
                     </div>
                     <div class="navbar-center hidden lg:flex">
                         <ul class="uppercase text-base menu menu-horizontal px-1">
@@ -159,6 +159,17 @@
     <main class="md:container md:mx-auto">
         <!-- featured bike -->
         <section>
+          <h3 class="text-5xl m-5 mb-12 font-semibold text-center">
+            <span class=" text-bike-primary">Questions</span> In This <span class="text-info">Year</span>
+        </h3>
+        <div class="grid  gap-20 m-auto lg:ml-20 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <img src="images/others/feature-bike.png" alt="">
+          <img src="images/others/feature-bike.png" alt="">
+          <img src="images/others/feature-bike.png" alt="">
+        </div>
+
+
+
 
         </section>
         <!-- latset view -->
@@ -202,7 +213,7 @@
         </section>
         <!-- happy clients-->
         <section class="my-24">
-            <h3 class="text-5xl mb-12 font-semibold text-center">
+            <h3 class="text-5xl mr-5 mb-12 font-semibold text-center">
                 Happy <span class="text-bike-primary">Clients says</span>
             </h3>
             <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
@@ -278,18 +289,67 @@
             </div>
 
         </section>
+    
 
-
-
-
-
+          <!-- faq -->
+         <section class="my-24">
+            <h3 class="text-5xl mb-12 pr-10 font-semibold text-center">
+                Frequently Asked  <span class="text-bike-primary">Questions</span>
+            </h3>
+            <div class="hero ">
+                <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+                  <img src="images/others/faq.png" class=" w-3/4 lg:max-w-sm rounded-lg shadow-2xl" />
+                  <div>
+                    <div class="join join-vertical w-full">
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                          <input type="radio" name="my-accordion-4" checked="checked" /> 
+                          <div class="collapse-title text-xl font-medium">
+                            What are the most important things I should
+                            know about riding a bike?
+                          </div>
+                          <div class="collapse-content"> 
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                          <input type="radio" name="my-accordion-4" /> 
+                          <div class="collapse-title text-xl font-medium">
+                            How can I tell if my helmet is old and I need a new one?
+                          </div>
+                          <div class="collapse-content"> 
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                        <div class="collapse collapse-arrow join-item border border-base-300">
+                          <input type="radio" name="my-accordion-4" /> 
+                          <div class="collapse-title text-xl font-medium">
+                            Click to open this one and close others
+                          </div>
+                          <div class="collapse-content"> 
+                            <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+         </section>
     </main>
 
 
-    <footer>
-
-    </footer>
-
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+        <aside>
+          <p> bike Industries Ltd.<br/>Providing reliable tech since 1992</p>
+        </aside> 
+        <nav>
+          <header class="footer-title">Social</header> 
+          <div class="grid grid-cols1 gap-4">
+            <a><img class="w-36" src="images/others/android.png" alt=""></a>
+            <a><img class="w-36" src="images/others/ios.png" alt=""></a>
+           
+          </div>
+        </nav>
+      </footer>
 </body>
 
 </html>
